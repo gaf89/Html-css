@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;    
+}
+thead {
+    background-color: #333;
+    border-color: #333;
+    text-align: center;
+}
+.cabecera-de-fila{
+    background-color: #E6F3FF;
+    font-family: Arial;
+}
+.fila-alterna{
+    background-color: #FFFFCC;
+}

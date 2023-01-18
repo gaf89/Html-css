@@ -1,0 +1,36 @@
+h1{
+    color: darkcyan;
+}
+
+h2{
+    color: blue;
+}
+
+th{
+    color: yellow;
+}
+
+    .titulo-uno{
+        color: red;
+    }
+
+td {
+    color: green;
+}
+
+.parrafo-especial{
+    color: rgb(161, 231, 41);
+}
+
+a{
+    color: red;
+}
+
+em{
+    color: blue;
+}
+
+table{     
+    border: 1px;
+    border-style: solid;
+}

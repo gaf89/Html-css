@@ -1,0 +1,17 @@
+h2{
+    color: aquamarine;
+}
+body{
+    background-color: azure;
+}
+section.section{
+    background-color: blue;
+}
+
+#section-one p:first-of-type{
+    color: brown;
+}
+
+.link:hover{
+    color: green;
+}

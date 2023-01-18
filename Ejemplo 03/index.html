@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hola mundo!</title>
+    <link rel="shortcut" href="favicom.ico" type="image/x-icon" />    
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap" 
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header container">
+        <nav class="nav">
+            <ul class="ul">
+                <li><a href="/navegacion-metodo-GET" target="_blank" class="link">Link 1</a></li>
+                <li><a href="/navegacion-metodo-GET" target="_blank" class="link">Link 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main-section">
+        <div id="intro" class="section">
+            <h1 class="title">Titulo de sección</h1>
+            <p class="subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel blanditiis quibusdam natus numquam labore sunt vitae tempora corporis reprehenderit consequuntur velit doloremque perspiciatis, modi veritatis est fuga dolore praesentium? Facilis.
+            </p>
+            <a href="" target="_blank" class="link">Hacia controlador, por método GET</a>
+        </div>
+        <div id="formulario" class="section">
+            <form action="" method="POST" class="form-registro" id="form-registro" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" class="input input-text" name="nombre" required placeholder="Pepito Honguito" />
+                </div>
+                <div class="from-group">
+                    <label for="Mail">Email*</label>
+                    <input type="mail" class="input" name="mail" required placeholder="direccion@correo.com" />
+                </div>
+                <div class="form-group">
+                    <label for="Telefono">Teléfono</label>
+                    <input type="number" class="input" name="telefono" placeholder="123456879" />
+                </div>
+                <div class="form-group">
+                    <label for="pais">Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="arg">ARG</option>
+                        <option value="chi">CHI</option>
+                        <option value="brz">BRZ</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="imagen">Imagen de perfil</label>
+                    <input type="file" class="input" name="imagen" />
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Alguna fecha</label>
+                    <input type="date" name="fecha-inicio" min="2015-01-01" max="2020-06-20" />
+                </div>
+                <div class="form-group">
+                    <label for="contrasenia" class="contrasenia">Contraseña*</label>
+                    <input type="password" class="input" name="contrasenia" pattern=".{8,}" placeholder="Ingrese al menos 8 digitos" />
+                </div>
+
+                <button type="submit" class="link btn">Registrarme</button>
+            </form>
+        </div>
+        <img src="" alt="" />
+    </section>
+    <footer>
+        <p>Un texto en el footer</p>
+    </footer>
+    <script></script>
+</body>
+</html>

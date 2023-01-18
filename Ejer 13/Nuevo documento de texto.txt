@@ -1,0 +1,6 @@
+<section style="margin-left: 20px; display: inline-block; background: rgb(194, 194, 184);" >
+
+style="margin-left: 20px; display: inline-block;" class="shadow-lg p-3 mb-5 bg-white rounded"
+
+
+class="border border-dark" style="margin-left: 20px; display: inline-block"

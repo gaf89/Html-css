@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <section>
+        <div>
+            <form action="/controlador-registro" method="POST" enctype="text/plain">
+                <div>
+                    <label for="nombre">Nombre del usuario</label><br>
+                    <input type="text" name="nombre">
+                </div>
+                <div>
+                    <label for="contrasenia">Contraseña del usuario</label><br>
+                    <input type="password" name="contrasenia">
+                </div>
+                <div>
+                    <label for="edad">Edad del usuario</label><br>
+                    <input type="number" name="edad">
+                </div>
+                <div>
+                    <label for="fecha">Fecha de nacimiento del usuario</label><br>
+                    <input type="date" name="fecha">
+                </div>
+                <div>
+                    <label for="sexo">Sexo del usuario</label><br>
+                    <input type="radio" name="sexo" id="hombre" value="h">
+                    <label for="hombre">Hombre</label> <br>
+                    <input type="radio" name="sexo" id="mujer" value="m"> 
+                    <label for="mujer">Mujer</label> <br>
+                    <input type="radio" name="sexo" id="noDecirlo" value="null"> 
+                    <label for="noDecirlo">Prefiero no decirlo</label><br>
+                </div>
+                <div>
+                    <label for="pais">Pais de nacimiento de usuario</label><br>
+                    <select name="pais">
+                        <option value="arg">Argentina</option>
+                        <option value="chi">Chile</option>
+                        <option value="uru">Uruguay</option>
+                        <option value="bra">Brasil</option>
+                        <option value="par">Paraguay</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
